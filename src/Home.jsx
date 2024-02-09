@@ -22,7 +22,7 @@ const Home = () => {
              max-sm:top-[20px]
             w-full h-full 
               " muted >
-<source  src="../src/images/gym-video.mp4"  type="video/mp4"></source>
+<source  src="../images/gym-video.mp4"  type="video/mp4"></source>
         </video>
 
 <header className=' lg:bg-white   lg:bg-opacity-50 md:bg-black

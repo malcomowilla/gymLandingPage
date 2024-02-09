@@ -9,7 +9,7 @@ function App() {
 const [seen, setSeen] = useState(false)
   return (
     <>
-     <main className='min-h-screen w-full'>
+     <main className='l'>
       <ContextApi.Provider value={{seen, setSeen}}>
 
 

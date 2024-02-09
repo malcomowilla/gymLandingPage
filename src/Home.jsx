@@ -19,8 +19,8 @@ const Home = () => {
     <div className='relative w-full h-full z-10   max-sm:top-[-10px]  md:top-[70px] '>
             <video autoPlay loop  className="absolute     object-cover 
             md:top-[60px]    lg:top-[-250px] 
-             
-            w-full h-full object-cover
+             max-sm:top-[20px]
+            w-full h-full 
               " muted >
 <source  src="../src/images/gym-video.mp4"  type="video/mp4"></source>
         </video>
@@ -61,12 +61,15 @@ const Home = () => {
     </header>   
 
     <div className="relative md:top-[-300px]  bg-black  sm:top-[-350px] bg-opacity-60 
-     text-center max-h-screen min-h-screen w-full max-sm:z-0 sm:bg-gray-900 sm:bg-opacity-50 
+     text-center max-h-screen min-h-screen w-screen max-sm:z-0 sm:bg-gray-900 sm:bg-opacity-50 
     max-sm:bottom-[350px]  lg:top-[-350px]">
         <div className='translate-y-[290px]'>
-         <p className="  text-white lg:text-2xl font-bold mt-[250px] md:text-2xl max-sm:text-sm  sm:text-xl ">WORK HARDER, GET STRONGER</p>
-         <h1 className=' lg:text-8xl md:text-6xl max-sm:text-4xl font-extrabold text-white sm:text-5xl'>EASY WITH OUR <span className='text-orange-700'>GYM</span></h1>
-         <button className=' text-white mt-11 bg-orange-700 lg:p-4 md:p-3.5 max-sm:p-2 sm:p-3 sm:rounded-sm  sm:text-xs'>BECOME A MEMBER
+         <p className="  text-white lg:text-2xl font-bold mt-[250px] md:text-2xl max-sm:text-sm  
+         sm:text-xl ">WORK HARDER, GET STRONGER</p>
+         <h1 className=' lg:text-8xl md:text-6xl max-sm:text-4xl font-extrabold text-white 
+         sm:text-5xl'>EASY WITH OUR <span className='text-orange-700'>GYM</span></h1>
+         <button className=' text-white mt-11 bg-orange-700 lg:p-4 md:p-3.5 max-sm:p-2 sm:p-3 sm:rounded-sm 
+          sm:text-xs'>BECOME A MEMBER
          </button>
          </div>
     </div>

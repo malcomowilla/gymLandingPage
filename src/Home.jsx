@@ -9,8 +9,8 @@ const Home = () => {
   return (
     <>
     <div  onClick={()=> setSeen(!seen)} className={`relative md:left-6 lg:hidden 
-     max-sm:relative  sm:left-[500px] md:hidden
-     max-sm:left-[500px]
+     max-sm:relative  sm:left-[] md:hidden
+     
     max-sm:w-[100px] max-sm:h-[100px] bg-slate-300  sm:w-[100px] sm:h-[100px]    rounded-full  flex justify-center items-center `}>
 <ion-icon name={`${seen ? 'close' : 'menu'}`} className=''></ion-icon>
 

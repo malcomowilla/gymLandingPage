@@ -45,7 +45,7 @@ const Home = () => {
     sm:text-white sm:flex-col sm:justify-center sm:items-center sm:bg-black sm:h-[400px] sm:w-[600px] sm:relative
     sm:left-[70px] md:bg-transparent md:h-auto md:w-auto sm:top-[-40px]
      lg:space-y-[-30px] max-sm:justify-center max-sm:items-center max-sm:bg-black  max-sm:z-50  max-sm:text-white
-      max-sm:flex-col md:flex-row md:gap-11      max-sm:w-[400px] max-sm:h-[400px] max-sm:gap-[20px] 
+      max-sm:flex-col md:flex-row md:gap-11       max-sm:h-[400px] max-sm:gap-[20px] 
       cursor-pointer  transition-all duration-500 ease-in max-sm:relative md:text-black md:text-xs lg:top-10
       md:translate-y-10 lg:translate-y-0 max-sm:right-[40px]
      '> 
@@ -61,7 +61,7 @@ const Home = () => {
     </header>   
 
     <div className="relative md:top-[-300px]  bg-black  sm:top-[-350px] bg-opacity-60 
-     text-center max-h-screen min-h-screen w-screen max-sm:z-0 sm:bg-gray-900 sm:bg-opacity-50 
+     text-center max-h-screen min-h-screen w-full max-sm:z-0 sm:bg-gray-900 sm:bg-opacity-50 
     max-sm:bottom-[350px]  lg:top-[-350px]">
         <div className='translate-y-[290px]'>
          <p className="  text-white lg:text-2xl font-bold mt-[250px] md:text-2xl max-sm:text-sm  

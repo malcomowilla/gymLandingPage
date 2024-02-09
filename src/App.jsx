@@ -9,7 +9,7 @@ function App() {
 const [seen, setSeen] = useState(false)
   return (
     <>
-     <main className='l'>
+     <main className=''>
       <ContextApi.Provider value={{seen, setSeen}}>
 
 

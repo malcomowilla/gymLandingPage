@@ -5,15 +5,16 @@ import ContextApi from '../src/context/ContextApi'
 import About from './About'
 import MotivationalQuotes from './MotivationalQuotes'
 import Classes  from './Classes'
-
+import ClasseSchedule  from './ClasseSchedule'
 
 
 function App() {
 const [seen, setSeen] = useState(false)
+const [active, setActive] = useState('first')
   return (
     <>
      <main className=''>
-      <ContextApi.Provider value={{seen, setSeen}}>
+      <ContextApi.Provider value={{seen, setSeen,  active, setActive}}>
 
 <section>
 
@@ -48,6 +49,11 @@ const [seen, setSeen] = useState(false)
 </section>
 
 
+<section>
+
+<ClasseSchedule/>
+
+</section>
 
 
 

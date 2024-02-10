@@ -20,7 +20,7 @@ const About = () => {
              className='object-contain max-w-[200px]' />
             </div>
             <div className='mt-7 '>
-            <p className='text-center w-[600px] md:text-2xl'>waves
+            <p className='text-center w-[600px] md:text-2xl font-thin'>waves
 Training Studio is free CSS template for gyms and fitness centers. You are allowed to use 
 this layout for your business website.</p>
             </div>
@@ -39,7 +39,7 @@ this layout for your business website.</p>
 
             <div className='sentence'>
             <h4 className=' font-extrabold md:text-3xl'>Basic Fitness</h4>
-            <p className='font-thin md:text-lg'>Please do not re-distribute this template ZIP file on any template
+            <p className='font-thin md:text-lg  max-w-[400px]'>Please do not re-distribute this template ZIP file on any template
                 collection website. This is not allowed.</p>
             </div>
 
@@ -55,7 +55,7 @@ this layout for your business website.</p>
             <div className='sentence'>
             <h4 className='font-extrabold md:text-3xl'>New Gym Training
 </h4>
-            <p className='font-thin md:text-lg'>If you wish to support TemplateMo website via PayPal
+            <p className='font-thin md:text-lg max-w-[400px]'>If you wish to support TemplateMo website via PayPal
                 , please feel free to contact us. We appreciate it a lot.</p>
             </div>
 
@@ -68,7 +68,7 @@ this layout for your business website.</p>
                     </div>
 
             <div className='sentence'>
-            <h4 className='font-extrabold md:text-3xl'>Basic Muscle Course</h4>
+            <h4 className='font-extrabold md:text-3xl max-w-[400px]'>Basic Muscle Course</h4>
             <p className='font-thin md:text-lg'>Credit goes to Pexels website for images
                  and video background used in this HTML template.</p>
             </div>
@@ -85,7 +85,7 @@ this layout for your business website.</p>
 
             <div className='sentence'>
             <h4 className='font-extrabold md:text-3xl'>Advanced Muscle Course</h4>
-            <p className='font-thin  md:text-lg'>You may want to browse through
+            <p className='font-thin  md:text-lg max-w-[400px]'>You may want to browse through
                  Digital Marketing or Corporate HTML CSS templates on our website.</p>
             </div>
 
@@ -100,7 +100,7 @@ this layout for your business website.</p>
 
             <div className='sentence'>
             <h4 className='font-extrabold md:text-3xl'>Yoga Training</h4>
-            <p className='font-thin md:text-lg'>his template is built on Bootstrap v4.3.1 framework. It is easy to adapt the columns and sections.</p>
+            <p className='font-thin md:text-lg max-w-[400px]'>his template is built on Bootstrap v4.3.1 framework. It is easy to adapt the columns and sections.</p>
             </div>
 
 
@@ -115,7 +115,7 @@ this layout for your business website.</p>
 
             <div className='sentence'>
             <h4 className='font-extrabold md:text-3xl'>Body Building Course</h4>
-            <p className='font-thin  md:text-lg'>Suspendisse fringilla et nisi et mattis.
+            <p className='font-thin  md:text-lg max-w-[400px]'>Suspendisse fringilla et nisi et mattis.
                  Curabitur sed finibus nisi. Integer nibh sapien, vehicula et auctor.</p>
             </div>
                     </div>

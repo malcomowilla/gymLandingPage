@@ -4,6 +4,9 @@ import {useState} from 'react'
 import ContextApi from '../src/context/ContextApi'
 import About from './About'
 import MotivationalQuotes from './MotivationalQuotes'
+import Classes  from './Classes'
+
+
 
 function App() {
 const [seen, setSeen] = useState(false)
@@ -39,6 +42,10 @@ const [seen, setSeen] = useState(false)
 </section>
 
 
+
+<section className='mt-[px]'>
+<Classes/>
+</section>
 
 
 

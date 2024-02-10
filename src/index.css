@@ -10,3 +10,12 @@
     padding: 0;
   }
 }
+
+
+
+
+@layer components {
+  .box-shadow{
+    box-shadow: 1px 1px 2px 2px ;
+  }
+}

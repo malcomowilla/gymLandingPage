@@ -7,15 +7,15 @@
 const MotivationalQuotes = () => {
   return (
     <div className='w-full h-full  '>
-        <div className='flex lg:justify-center lg:items-center max-sm:grid '>
-        <img src="/images/cta-bg.jpg"  className='max-sm:max-w-[1000px] h-[600px] object-cover'alt="" />
+        <div className='flex lg:justify-center  '>
+        <img src="/images/cta-bg.jpg"  className='max-w-[100%] h-[1000px] object-cover'alt="quotes" />
 
         </div>
 
         <div className='lg:mt-[-290px] text-white flex justify-center items-center md:mt-[-390px] 
          max-sm:mt-[-290px] '>
 
-<div className='flex flex-col flex-shrink flex-wrap justify-center'>
+<div className='flex flex-col flex-shrink flex-wrap justify-center  translate-y-[-500px]'>
             <h1 className='text-center font-extrabold lg:text-5xl md:text-white md:text-3xl max-sm:text-2xl '>DONT <span className='text-orange-700'>THINK</span>,BEGIN
              <span className='text-orange-600'>TODAY!</span> </h1>
 

@@ -10,7 +10,7 @@ import ScheduleTable  from './ScheduleTable'
 
 const ClasseSchedule = () => {
   return (
-    <div className='w-full h-full  relative max-sm:top-[500px] lg:top-[600px]  md:top-[500px] sm:top-[500px]'>
+    <div className='w-full h-full  relative max-sm:top-[900px] lg:top-[600px]  md:top-[500px] sm:top-[500px]'>
 
 
         

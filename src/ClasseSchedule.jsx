@@ -1,7 +1,7 @@
 
 const ClasseSchedule = () => {
   return (
-    <div className='w-full h-full  relative top-[300px] '>
+    <div className='w-full h-full  relative max-sm:top-[1800px] '>
 
 
         

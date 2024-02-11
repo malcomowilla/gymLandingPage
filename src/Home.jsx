@@ -11,16 +11,16 @@ const Home = () => {
     <div  onClick={()=> setSeen(!seen)} className={`relative md:left-6 lg:hidden 
      max-sm:relative  sm:left-[] md:hidden 
      
-    max-sm:w-[100px] max-sm:h-[100px] bg-slate-300  sm:w-[100px] sm:h-[100px]    rounded-full  flex justify-center items-center `}>
+    max-sm:w-[80px] max-sm:h-[80px] bg-slate-300  sm:w-[100px] sm:h-[100px]    rounded-full  flex justify-center items-center `}>
 <ion-icon name={`${seen ? 'close' : 'menu'}`} className=''></ion-icon>
 
     </div>
     {/* <img src="../src/images/icons8-bars-50.png" alt="" className='max-sm:ml-[500px] lg:hidden'  onClick={()=> setSeen(!seen)}/> */}
     <div className='relative w-full h-full z-10   max-sm:top-[-10px]  md:top-[70px] '>
-            <video autoPlay loop  className="absolute     object-cover 
-            md:top-[60px]    lg:top-[-250px] 
-             max-sm:top-[20px]
-            w-full h-full 
+            <video autoPlay loop  className="absolute  object-cover 
+            md:top-[60px]  
+             max-sm:top-[120px]
+              w-[100%] h-[800px]   min-w-[600px] max-sm:h-[800px]
               " muted >
 <source  src="../images/gym-video.mp4"  type="video/mp4"></source>
         </video>
@@ -38,31 +38,31 @@ const Home = () => {
 
 
 
-<div className={`max-sm:relative   max-sm:right-[190px]  md:flex
+<div className={`max-sm:relative   max-sm:right-[190px]  md:flex  lg:flex lg:justify-evenly
  ${seen ?  ' top-0 transition-all duration-500 ease-in z-50 ' : 'top-[-600px]  '} `}>
 
-    <ul className='flex lg:flex-row  lg:gap-[10vw] lg:justify-center lg:bg-transparent lg:h-auto lg:w-auto
+    <ul className='flex lg:flex-row   lg:justify-between  
     sm:text-white sm:flex-col sm:justify-center sm:items-center sm:bg-black sm:h-[400px] sm:w-[600px] sm:relative
-    sm:left-[70px] md:bg-transparent md:h-auto md:w-auto sm:top-[-40px]
-     lg:space-y-[-30px] max-sm:justify-center max-sm:items-center max-sm:bg-black  max-sm:z-50  max-sm:text-white
+    sm:left-[70px] md:bg-transparent     md:h-auto  sm:top-[-40px]
+     lg:space-y-[-70px] max-sm:justify-center max-sm:items-center max-sm:bg-black  max-sm:z-50  max-sm:text-white
       max-sm:flex-col md:flex-row md:gap-11      max-sm:w-[250px] max-sm:h-[400px] max-sm:gap-[20px] 
       cursor-pointer  transition-all duration-500 ease-in max-sm:relative md:text-black md:text-xl lg:top-10
-      md:translate-y-10 lg:translate-y-0 max-sm:right-[40px]
+      md:translate-y-10 lg:translate-y-0 max-sm:right-[40px] lg:text-sm 
      '> 
-        <li className='lg:mt-[-29px]'>HOME</li>
+        <li className='lg:mt-[-70px]'>HOME</li>
         <li>ABOUT</li>
         <li>CLASSES</li>
         <li>SCHEDULES</li>
         <li>CONTACT</li>
-        <li className='bg-orange-500 p-3 h-[40px] text-sm w-[90px] rounded-sm'>SIGN UP</li>
+        <li className='bg-orange-500 p-3 text-sm  rounded-md'>SIGN UP</li>
     </ul>
     </div>
 
     </header>   
 
-    <div className="relative md:top-[-300px]  bg-black  sm:top-[-350px] bg-opacity-60 
-     text-center max-h-screen min-h-screen w-full max-sm:z-0 sm:bg-gray-900 sm:bg-opacity-50 
-    max-sm:bottom-[350px]  lg:top-[-350px]">
+    <div className="relative md:top-[-300px]  bg-black  sm:top-[-350px] bg-opacity-70 
+     text-center h-[800px]  min-w-[600px]   max-sm:z-0  
+    max-sm:bottom-[220px]  lg:top-[-350px]">
         <div className='translate-y-[290px]'>
          <p className="  text-white lg:text-2xl font-bold mt-[250px] md:text-2xl max-sm:text-sm  
          sm:text-xl ">WORK HARDER, GET STRONGER</p>

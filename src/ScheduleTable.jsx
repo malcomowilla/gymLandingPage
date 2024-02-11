@@ -17,19 +17,19 @@ const ScheduleTable = () => {
         <thead className="text-xs text-white uppercase dark:text-white">
             <tr>
                 <th scope="col" className="px-6 py-3">
-                    Product name
+                    Monday
                 </th>
                 <th scope="col" className="px-6 py-3">
-                    Color
+                    Tuesday
                 </th>
                 <th scope="col" className="px-6 py-3">
-                    Category
+                    Wednesday
                 </th>
                 <th scope="col" className="px-6 py-3">
-                    Price
+                    Thursday
                 </th>
                 <th scope="col" className="px-6 py-3">
-                    Action
+                    Friday
                 </th>
             </tr>
         </thead>
@@ -37,88 +37,97 @@ const ScheduleTable = () => {
             <tr className=" border-b border-blue-400  ">
                 <th scope="row" className="px-6 py-4 font-medium text-blue-50 whitespace-nowrap dark:text-blue-100 border-x-2
                 ">
-                    Apple MacBook Pro 
+                    Muscle Training
                 </th>
                 <td className="px-6 py-4 border-x-2">
-                    Silver
+                    10:00AM-11:30AM
                 </td>
                 <td className="px-6 py-4 border-x-2">
                     Laptop
                 </td>
                 <td className="px-6 py-4 border-x-2">
-                    $2999
                 </td>
                 <td className="px-6 py-4  border-x-2">
-                    <a href="#" className="font-medium text-white hover:underline">Edit</a>
+
+    Simon Oleinkei
+
+
                 </td>
             </tr>
             <tr className=" border-b border-blue-400">
                 <th scope="row" className="px-6 py-4 font-medium text-blue-50 whitespace-nowrap dark:text-blue-100 border-x-2
                 ">
-                    Microsoft Surface Pro
+                    Body Building
                 </th>
                 <td className="px-6 py-4 border-x-2">
-                    White
+                    
                 </td>
                 <td className="px-6 py-4 border-x-2">
-                    Laptop PC
                 </td>
                 <td className="px-6 py-4 border-x-2">
-                    $1999
                 </td>
                 <td className="px-6 py-4 border-x-2">
-                    <a href="#" className="font-medium text-white hover:underline">Edit</a>
+
+    Lenard Oduor
+
                 </td>
             </tr>
             <tr className=" border-b border-blue-400">
                 <th scope="row" className="px-6 py-4 font-medium text-blue-50 whitespace-nowrap dark:text-blue-100 border-x-2">
-                    Magic Mouse 2
+                Yoga Training Class
+
                 </th>
                 <td className="px-6 py-4 border-x-2">
-                    Black
+                    
                 </td>
                 <td className="px-6 py-4 border-x-2">
-                    Accessories
                 </td>
                 <td className="px-6 py-4 border-x-2">
-                    $99
+                    2:00PM-3:30PM
                 </td>
                 <td className="px-6 py-4 border-x-2">
-                    <a href="#" className="font-medium text-white hover:underline">Edit</a>
+
+Peter Ochieng
+
                 </td>
             </tr>
             <tr className=" border-b border-blue-400">
                 <th scope="row" className="px-6 py-4 font-medium text-blue-50 whitespace-nowrap dark:text-blue-100 border-x-2">
-                    Google Pixel Phone
+                    Advanced Training
                 </th>
                 <td className="px-6 py-4 border-x-2">
-                    Gray
+                    
                 </td>
                 <td className="px-6 py-4 border-x-2">
-                    Phone
+                    
                 </td>
                 <td className="px-6 py-4 border-x-2">
-                    $799
+                    
                 </td>
                 <td className="px-6 py-4 border-x-2">
-                    <a href="#" className="font-medium text-white hover:underline">Edit</a>
+
+
+    Johnston  Kamau
+
                 </td>
             </tr>
             <tr className=" border-blue-40">
                 <th scope="row" className="px-6 py-4 font-medium text-blue-50 whitespace-nowrap dark:text-blue-100 border-x-2" >
-                    Apple Watch 5
+                    
                 </th>
                 <td className="px-6 py-4 border-x-2">
-                    Red
+                    
                 </td>
                 <td className="px-6 py-4 border-x-2">
-                    Wearables
+                    
                 </td>
                 <td className="px-6 py-4 border-x-2">
-                    $999
+                    
                 </td>
                 <td className="px-6 py-4 border-x-2">
-                    <a href="#" className="font-medium text-white hover:underline">Edit</a>
+
+
+
                 </td>
             </tr>
         </tbody>

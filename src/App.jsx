@@ -6,7 +6,7 @@ import About from './About'
 import MotivationalQuotes from './MotivationalQuotes'
 import Classes  from './Classes'
 import ClasseSchedule  from './ClasseSchedule'
-
+import Trainers  from './Trainers'
 
 function App() {
 const [seen, setSeen] = useState(false)
@@ -55,6 +55,14 @@ const [active, setActive] = useState('first')
 
 </section>
 
+
+
+      <section>
+
+      <Trainers/>
+
+
+      </section>
 
 
      </ContextApi.Provider>

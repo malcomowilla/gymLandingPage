@@ -20,7 +20,7 @@ const About = () => {
              className='object-contain max-w-[200px]' />
             </div>
             <div className='mt-7 '>
-            <p className='text-center w-[600px] md:text-2xl font-thin'>waves
+            <p className='text-center max-w-[600px] md:text-2xl font-thin'>waves
 Training Studio is free CSS template for gyms and fitness centers. You are allowed to use 
 this layout for your business website.</p>
             </div>

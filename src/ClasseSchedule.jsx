@@ -1,14 +1,23 @@
 
+
+
+import ScheduleTable  from './ScheduleTable'
+
+
+
+
+
+
 const ClasseSchedule = () => {
   return (
-    <div className='w-full h-full  relative max-sm:top-[1800px] '>
+    <div className='w-full h-full  relative max-sm:top-[300px] lg:top-[600px]  md:top-[500px] sm:top-[500px]'>
 
 
         
         <div className=' flex justify-center items-center   '>
 
 
-        <div className='absolute lg:mb-[560px]'>
+        <div className='absolute  max-sm:mb-[600px] sm:mb-[600px]  lg:mb-[560px]'>
 <div className='flex justify-center '>
 <h4 className='text-white font-extrabold lg:text-3xl'>CLASSES <span className='text-orange-700'>SCHEDULE</span></h4>
 
@@ -26,10 +35,13 @@ Nunc urna sem, laoreet ut metus id, aliquet consequat magna. Sed viverra ipsum d
 </div>
 
 
+            
 </div>
+<ScheduleTable/>
 
 
-    <img src="/images/schedule-bg.jpg " alt="yoga image" className='w-full max-h-[900px] '  />
+    <img src="/images/schedule-bg.jpg " alt="yoga image" className='w-full object-cover  aspect-ratio max-sm:h-[800px]  md:h-[800px] 
+    sm:h-[800px]'  />
 
         
         </div>

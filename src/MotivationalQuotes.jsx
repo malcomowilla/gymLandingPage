@@ -6,9 +6,9 @@
 
 const MotivationalQuotes = () => {
   return (
-    <div className='w-full h-full '>
-        <div className='flex lg:justify-center lg:items-center '>
-        <img src="/images/cta-bg.jpg"  className='w-screen h-[600px]'alt="" />
+    <div className='w-full h-full  '>
+        <div className='flex lg:justify-center lg:items-center max-sm:grid '>
+        <img src="/images/cta-bg.jpg"  className='max-sm:max-w-[1000px] h-[600px] object-cover'alt="" />
 
         </div>
 

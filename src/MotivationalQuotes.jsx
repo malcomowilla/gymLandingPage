@@ -7,7 +7,7 @@
 const MotivationalQuotes = () => {
   return (
     <div className='w-full h-full  '>
-        <div className='flex lg:justify-center  '>
+        <div className='flex lg:justify-center w-full h-full '>
         <img src="/images/cta-bg.jpg"  className='max-w-[100%] h-[1000px] object-cover'alt="quotes" />
 
         </div>

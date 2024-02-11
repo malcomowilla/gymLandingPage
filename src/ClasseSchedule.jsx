@@ -1,11 +1,11 @@
 
 const ClasseSchedule = () => {
   return (
-    <div className='w-full h-full  '>
+    <div className='w-full h-full  relative top-[300px] '>
 
 
         
-        <div className=' flex justify-center items-center  top-[300px] relative'>
+        <div className=' flex justify-center items-center   '>
 
 
         <div className='absolute lg:mb-[560px]'>

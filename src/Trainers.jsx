@@ -5,7 +5,7 @@ const Trainers = () => {
 
 
     <div className='flex justify-center  items-center w-full h-screen  lg:mt-[400px] max-sm:mt-[500px]   md:mt-[200px] relative'>
-<div className='text-black flex justify-center items-center lg:translate-y-[-90px]  flex-col'>
+<div className='text-black flex justify-center items-center lg:translate-y-[-90px]  flex-col  max-sm:translate-y-[450px] '>
 <h3 className=''>EXPERT TRAINERS</h3>
 <img src="/images/line-dec.png"  className='mt-[10px]' alt="" />
 <p className='mt-[20px] max-w-[500px]'>Nunc urna sem, laoreet ut metus id, aliquet consequat magna. Sed viverra ipsum dolor, 
@@ -18,7 +18,7 @@ const Trainers = () => {
 
 
 <div className="grid border border-gray-200 rounded-lg  dark:border-gray-700 mb-[500px] absolute 
- md:grid-cols-2 gap-10  shadow-2xl  bg-white dark:bg-gray-800  max-sm:translate-y-[1500px] translate-y-[500px] ">
+ md:grid-cols-2 gap-10  shadow-2xl  bg-white dark:bg-gray-800  max-sm:translate-y-[1650px] translate-y-[500px] ">
     <figure className="flex flex-col items-center justify-center p-8 text-center bg-white border-b border-gray-200 rounded-t-lg md:rounded-t-none md:rounded-ss-lg md:border-e dark:bg-gray-800 dark:border-gray-700">
         <blockquote className="max-w-2xl mx-auto mb-4 text-gray-500 lg:mb-8 dark:text-gray-400">
             <h3 className="text-lg font-semibold text-gray-900 dark:text-white">Very easy this was to integrate</h3>

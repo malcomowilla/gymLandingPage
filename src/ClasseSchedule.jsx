@@ -40,7 +40,7 @@ Nunc urna sem, laoreet ut metus id, aliquet consequat magna. Sed viverra ipsum d
 <ScheduleTable/>
 
     <img src="/images/schedule-bg.jpg " alt="yoga image" className=' w-[100%]  object-cover  
-     max-sm:h-[800px]  md:h-[800px] min-w-[600px]
+     max-sm:h-[800px]  md:h-[800px] min-w-[1000px]
     sm:h-[800px]  '  />
         
         </div>

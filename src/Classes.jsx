@@ -41,6 +41,10 @@ const Classes = () => {
 
 
 
+
+
+
+{isPending && <p>........Loading</p>}
 <div className='flex  flex-row  gap-[10px] w-full  h-[500px]   justify-center mt-[150px]  flex-wrap
    max-sm:grid  md:grid   md:grid-auto-fit sm:grid  lg:pl-[300px] '>
         <div className=' 

@@ -1,17 +1,17 @@
 
 const About = () => {
   return (
-    <div className='w-full h-full flex
+    <div className='w-full h-full flex 
      justify-center items-center relative top-[200px]'>
         
-        <div className='flex flex-col flex-shrink'>
+        <div className='flex flex-col flex-shrink px-10 pl-20'>
             <div className='flex justify-center items-center'>
             <h1 className='font-extrabold lg:text-5xl md:text-5xl'>CHOOSE <span className='text-orange-700'>PROGRAM</span></h1>
 
             </div>
 
 
-            <div className='mt-5 flex justify-center items-center '>
+            <div className='mt-5 flex justify-center items-center  '>
             <img src="/images/line-dec.png"  
             
             
@@ -30,14 +30,14 @@ this layout for your business website.</p>
 
 
 
-                    <div className=' absolute  top-[400px] grid grid-auto-fit gap-10' >
+                    <div className=' absolute  top-[400px] grid grid-auto-fit gap-10  pl-20' >
 
                     <div className=' image '>
             <img src="/images/features-first-icon.png" alt="" />
 
                     </div>
 
-            <div className='sentence'>
+            <div className='flex flex-wrap'>
             <h4 className=' font-extrabold md:text-3xl'>Basic Fitness</h4>
             <p className='font-thin md:text-lg  max-w-[400px]'>Please do not re-distribute this template ZIP file on any template
                 collection website. This is not allowed.</p>
@@ -52,7 +52,7 @@ this layout for your business website.</p>
 
                     </div>
 
-            <div className='sentence'>
+            <div className='flex flex-wrap'>
             <h4 className='font-extrabold md:text-3xl'>New Gym Training
 </h4>
             <p className='font-thin md:text-lg max-w-[400px]'>If you wish to support TemplateMo website via PayPal
@@ -67,7 +67,7 @@ this layout for your business website.</p>
 
                     </div>
 
-            <div className='sentence'>
+            <div className='flex flex-wrap'>
             <h4 className='font-extrabold md:text-3xl max-w-[400px]'>Basic Muscle Course</h4>
             <p className='font-thin md:text-lg'>Credit goes to Pexels website for images
                  and video background used in this HTML template.</p>
@@ -83,7 +83,7 @@ this layout for your business website.</p>
 
                     </div>
 
-            <div className='sentence'>
+            <div className='flex flex-wrap'>
             <h4 className='font-extrabold md:text-3xl'>Advanced Muscle Course</h4>
             <p className='font-thin  md:text-lg max-w-[400px]'>You may want to browse through
                  Digital Marketing or Corporate HTML CSS templates on our website.</p>
@@ -98,7 +98,7 @@ this layout for your business website.</p>
 
                     </div>
 
-            <div className='sentence'>
+            <div className='flex flex-wrap'>
             <h4 className='font-extrabold md:text-3xl'>Yoga Training</h4>
             <p className='font-thin md:text-lg max-w-[400px]'>his template is built on Bootstrap v4.3.1 framework. It is easy to adapt the columns and sections.</p>
             </div>
@@ -113,7 +113,7 @@ this layout for your business website.</p>
 
                     </div>
 
-            <div className='sentence'>
+            <div className='flex flex-wrap'>
             <h4 className='font-extrabold md:text-3xl'>Body Building Course</h4>
             <p className='font-thin  md:text-lg max-w-[400px]'>Suspendisse fringilla et nisi et mattis.
                  Curabitur sed finibus nisi. Integer nibh sapien, vehicula et auctor.</p>

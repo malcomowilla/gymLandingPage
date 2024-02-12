@@ -6,7 +6,7 @@ const SecondColumn = () => {
 
 <div className='border-4 max-w-[550px] lg:max-w-[650px] lg:h-[500px] rounded-2xl transition-all duration-100 ease-in '>
 
-<img src="/images/training-image-02.jpg" className='lg:h-[550px] lg:max-w-[650px]  rounded-xl' alt="yoga" />
+{/* <img src="/images/training-image-02.jpg" className='lg:h-[550px] lg:max-w-[650px]  rounded-xl' alt="yoga" /> */}
 </div>
 
 <div className='flex  flex-col justify-center items-center p-10 mt-20'>

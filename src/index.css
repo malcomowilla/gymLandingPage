@@ -25,4 +25,8 @@
   .aspect-ratio{
     aspect-ratio: 10/5;
   }
+
+  .vh{
+    width: 50vh;
+  }
 }

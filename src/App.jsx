@@ -16,7 +16,7 @@ const [active, setActive] = useState('first')
      <main className=''>
       <ContextApi.Provider value={{seen, setSeen,  active, setActive}}>
 
-<section>
+<section className=''>
 
 <Home/>
 

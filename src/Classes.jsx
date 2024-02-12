@@ -25,10 +25,10 @@ const Classes = () => {
 
   return (
     <div className=' 
-      w-screen h-screen  mt-[450px]'>
+      w-screen h-screen  mt-[450px]  pl-10'>
         <div className='flex justify-center items-center flex-col '> 
-<div className='text-center'>
-<h4 className='font-extrabold lg:text-4xl  md:text-3xl max-sm:text-2xl sm:text-4xl'>OUR  <span className='text-orange-600'>  CLASSES</span></h4>
+<div className=''>
+<h4 className='font-extrabold lg:text-4xl  md:text-3xl max-sm:text-2xl sm:text-4xl '>OUR  <span className='text-orange-600'>  CLASSES</span></h4>
 </div>
 <div className='image flex justify-center items-center'><img src="/images/line-dec.png" alt="" /></div>
 
@@ -45,13 +45,13 @@ const Classes = () => {
 
 
 {isPending && <p>........Loading</p>}
-<div className='flex  flex-row  gap-[10px] w-full  h-[500px]   justify-center mt-[150px]  flex-wrap
+<div className='flex  flex-row  translate-x-[-120px] w-full  h-[500px]   justify-center mt-[150px]  flex-wrap
    max-sm:grid  md:grid   md:grid-auto-fit sm:grid  lg:pl-[300px] '>
         <div className=' 
            flex flex-col    gap-[100px] max-sm:grid '>
 
 <div  onClick={()=> selectTab('first')} className='flex flex-row-reverse  gap-[40px] shadow-xl p-7 justify-center shrink h-auto
- sm:w-full lg:w-[400px] max-sm:p-4 '>
+ max-w-[100%]   min-w-[100%]  max-sm:p-4'>
   <p className='sm:text-xl '>First Training Class</p>
 <img src="/images/tabs-first-icon.png" alt="icon2-image" />
 </div>
@@ -60,7 +60,7 @@ const Classes = () => {
 
 
 <div    onClick={()=> selectTab('second')}   className='flex   flex-row-reverse gap-[40px]  shadow-xl 
-p-7 max-sm:p-4 justify-center shrink h-auto sm:w-full lg:w-[400px]'>
+p-7 max-sm:p-4 justify-center shrink h-auto  max-w-[100%]   min-w-[100%]'>
 <p className='sm:text-xl' >Second Training Class</p>
 <img src="/images/tabs-first-icon.png" alt="icon2-image" />
 </div>
@@ -68,14 +68,16 @@ p-7 max-sm:p-4 justify-center shrink h-auto sm:w-full lg:w-[400px]'>
 
 
 
-<div       onClick={()=> selectTab('third')}   className='flex flex-row-reverse gap-[40px] max-sm:p-4  shadow-xl p-7 justify-center shrink h-auto sm:w-full lg:w-[400px]'>
+<div       onClick={()=> selectTab('third')}   className='flex flex-row-reverse gap-[40px] max-sm:p-4  
+shadow-xl p-7 justify-center shrink h-auto  max-w-[100%]   min-w-[100%]'>
 <p className='sm:text-xl'>Third Training Class</p>
 <img src="/images/tabs-first-icon.png" alt="icon2-image" />
 </div>
 
 
 
-<div    onClick={()=> selectTab('fourth')}    className='flex flex-row-reverse    gap-[40px]  max-sm:p-4 shadow-xl p-7 justify-center shrink h-auto sm:w-full lg:w-[400px]'>
+<div    onClick={()=> selectTab('fourth')}    className='flex flex-row-reverse  
+  gap-[40px]  max-sm:p-4 shadow-xl p-7 justify-center shrink h-auto  max-w-[100%]   min-w-[100%]'>
 <p   className='sm:text-xl'>Fourth Training Class</p>
 <img src="/images/tabs-first-icon.png" alt="icon2-image" />
 </div>

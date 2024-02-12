@@ -5,7 +5,7 @@ const Trainers = () => {
 
 
     <div className='flex justify-center  items-center w-full h-screen  lg:mt-[400px] max-sm:mt-[500px]   md:mt-[200px] relative'>
-<div className='text-black flex justify-center items-center lg:translate-y-[-90px]  flex-col  max-sm:translate-y-[450px] '>
+<div className='text-black flex justify-center items-center lg:translate-y-[-90px]  px-[50px] pl-10  flex-col  max-sm:translate-y-[450px] '>
 <h3 className=''>EXPERT TRAINERS</h3>
 <img src="/images/line-dec.png"  className='mt-[10px]' alt="" />
 <p className='mt-[20px] max-w-[500px]'>Nunc urna sem, laoreet ut metus id, aliquet consequat magna. Sed viverra ipsum dolor, 

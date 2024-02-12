@@ -6,16 +6,16 @@
 
 const MotivationalQuotes = () => {
   return (
-    <div className='w-full h-full  '>
-        <div className='flex lg:justify-center w-full h-full '>
-        <img src="/images/cta-bg.jpg"  className='w-[100%]  max-sm:max-w-[100%] min-w-[400px] h-[1000px] object-cover'alt="quotes" />
+    <div className='w-full h-full  translate-y-[200px] '>
+        <div className='block w-full h-full  '>
+        <img src="/images/cta-bg.jpg"  className='max-sm:p-2  max-w-[100%] min-w-[100%] h-[1000px] object-cover'alt="quotes" />
 
         </div>
 
         <div className='lg:mt-[-290px] text-white flex justify-center items-center md:mt-[-390px] 
          max-sm:mt-[-290px] '>
 
-<div className='flex flex-col flex-shrink flex-wrap justify-center  translate-y-[-500px]'>
+<div className='flex flex-col flex-shrink flex-wrap justify-center items-center p-6 min-w-[100%] overflow-hidden translate-y-[-500px] '>
             <h1 className='text-center font-extrabold lg:text-5xl md:text-white md:text-3xl max-sm:text-2xl '>DONT <span className='text-orange-700'>THINK</span>,BEGIN
              <span className='text-orange-600'>TODAY!</span> </h1>
 

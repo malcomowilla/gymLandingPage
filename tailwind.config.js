@@ -12,6 +12,7 @@ export default {
   plugins: [
     require('@shrutibalasa/tailwind-grid-auto-fit'),
     require('flowbite/plugin')
+    
 
 
   ],

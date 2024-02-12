@@ -44,7 +44,7 @@ const [active, setActive] = useState('first')
 
 
 
-<section className='mt-[px]'>
+<section className='pl-4'>
 <Classes/>
 </section>
 

@@ -12,7 +12,7 @@ const ThirdColumn = () => {
     
 <div className='border-4 lg:max-w-[650px] lg:h-[500px] rounded-2xl '>
 
-{/* <img src="/images/training-image-03.jpg"   className='lg:h-[550px] lg:max-w-[650px]  rounded-xl'alt="yoga" /> */}
+<img src="/images/training-image-03.jpg"   className='lg:h-[550px] lg:max-w-[650px]  rounded-xl'alt="yoga" />
 </div>
 
 <div className='flex  flex-col justify-center items-center p-10 mt-20'>

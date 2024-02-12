@@ -14,12 +14,12 @@ const Home = () => {
 </div>
     
     {/* <img src="../src/images/icons8-bars-50.png" alt="" className='max-sm:ml-[500px] lg:hidden'  onClick={()=> setSeen(!seen)}/> */}
-    <div className='relative w-screen h-full z-50   max-sm:top-[-10px]  max-sm:overflow-hidden  md:top-[70px]'>
+    <div className='relative  w-full h-full z-50   max-sm:top-[-10px]    md:top-[70px]'>
             <video autoPlay loop  className="absolute  object-cover 
             md:top-[60px] 
             sm:top-[70px] 
              max-sm:top-[120px] 
-           w-[100%]   h-[800px]
+           w-[100%]  h-[800px] mix-blend-multiply
               " muted >
 <source  src="../images/gym-video.mp4"  type="video/mp4"></source>
         </video>
@@ -44,7 +44,7 @@ const Home = () => {
     sm:text-white  sm:flex-col sm:justify-center sm:items-center sm:bg-black sm:h-[400px] sm:w-[600px] sm:bg-opacity-50 sm:relative
     sm:left-[70px] md:bg-transparent     md:h-auto   md:max-xl:top-[-50px]  md:max-xl:left-[200px]
      lg:space-y-[-70px] max-sm:justify-center max-sm:items-center max-sm:bg-black  max-sm:z-50  max-sm:text-white
-      max-sm:flex-col md:flex-row md:gap-11      max-sm:w-[550px] max-sm:h-[400px] max-sm:gap-[20px] 
+      max-sm:flex-col md:flex-row md:gap-11      max-sm:w-0.5   max-sm:h-[400px] max-sm:gap-[20px] 
       cursor-pointer  transition-all duration-500 ease-in max-sm:relative md:text-black md:text-xl lg:top-10
       md:translate-y-10 lg:translate-y-0 max-sm:right-[40px] lg:text-sm lg:p-3
       ${seen ?  ' top-0 transition-all duration-500 ease-in z-50 ' : 'top-[-600px]  '}

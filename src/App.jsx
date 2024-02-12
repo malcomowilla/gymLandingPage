@@ -16,7 +16,7 @@ const [active, setActive] = useState('first')
      <main className=''>
       <ContextApi.Provider value={{seen, setSeen,  active, setActive}}>
 
-<section className=''>
+<section className='  p-3 overflow-hidden'>
 
 <Home/>
 
@@ -26,7 +26,7 @@ const [active, setActive] = useState('first')
 
 
 
-<section className=''>
+<section className='p-3 '>
 
 <About/>
 
@@ -57,7 +57,7 @@ const [active, setActive] = useState('first')
 
 
 
-      <section>
+      <section className='p-10'>
 
       <Trainers/>
 

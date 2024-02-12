@@ -7,8 +7,8 @@
 const MotivationalQuotes = () => {
   return (
     <div className='w-full h-full  translate-y-[200px] '>
-        <div className='block w-full h-full  '>
-        <img src="/images/cta-bg.jpg"  className='max-sm:p-2  max-w-[100%] min-w-[100%] h-[1000px] object-cover'alt="quotes" />
+        <div className=' w-full h-full  '>
+        <img src="/images/cta-bg.jpg"  className='max-sm:p-2  max-w-[100%]  h-[1000px] object-cover block'alt="quotes" />
 
         </div>
 

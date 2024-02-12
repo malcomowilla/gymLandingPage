@@ -8,7 +8,7 @@ const FirstColumn = () => {
     
 <div className='border-8  lg:h-[500px] rounded-2xl w-full max-w-[100%] m-auto '>
 
-{/* <img src="/images/training-image-01.jpg" className='lg:h-[550px] block max-w-[100%]  rounded-xl' alt="yoga" /> */}
+<img src="/images/training-image-01.jpg" className='lg:h-[550px] block max-w-[100%]  rounded-xl' alt="yoga" />
 </div>
 
 <div className='flex  flex-col justify-center items-center  mt-10 p-10 '>

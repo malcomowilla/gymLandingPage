@@ -20,7 +20,7 @@ const Home = () => {
             <video autoPlay loop  className="absolute  object-cover 
             md:top-[60px]  
              max-sm:top-[120px]
-              w-[100%] h-[800px]   min-w-[600px] max-sm:h-[800px]
+              w-[100%] h-[800px]   min-w-[400px] max-sm:h-[800px]
               " muted >
 <source  src="../images/gym-video.mp4"  type="video/mp4"></source>
         </video>
@@ -44,7 +44,7 @@ const Home = () => {
     <ul className='flex lg:flex-row   lg:justify-between  
     sm:text-white sm:flex-col sm:justify-center sm:items-center sm:bg-black sm:h-[400px] sm:w-[600px] sm:relative
     sm:left-[70px] md:bg-transparent     md:h-auto  sm:top-[-40px]
-     lg:space-y-[-70px] max-sm:justify-center max-sm:items-center max-sm:bg-black  max-sm:z-50  max-sm:text-white
+     lg:space-y-[-70px] max-sm:justify-center max-sm:items-center max-sm:bg-white  max-sm:z-50  max-sm:text-black
       max-sm:flex-col md:flex-row md:gap-11      max-sm:w-[250px] max-sm:h-[400px] max-sm:gap-[20px] 
       cursor-pointer  transition-all duration-500 ease-in max-sm:relative md:text-black md:text-xl lg:top-10
       md:translate-y-10 lg:translate-y-0 max-sm:right-[40px] lg:text-sm 
@@ -61,7 +61,7 @@ const Home = () => {
     </header>   
 
     <div className="relative md:top-[-300px]  bg-black  sm:top-[-350px] bg-opacity-70 
-     text-center h-[800px]  min-w-[600px]   max-sm:z-0  
+     text-center h-[800px]  min-w-[400px]   max-sm:z-0  
     max-sm:bottom-[220px]  lg:top-[-350px]">
         <div className='translate-y-[290px]'>
          <p className="  text-white lg:text-2xl font-bold mt-[250px] md:text-2xl max-sm:text-sm  

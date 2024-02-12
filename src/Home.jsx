@@ -5,11 +5,11 @@ import ContextApi from '../src/context/ContextApi'
 
 const Home = () => {
 
-    const {seen, setSeen} = useContext(ContextApi)
+    const {seen, setSeen, backToTop} = useContext(ContextApi)
   return (
     <>
     
-    <div className='translate-x-[50px] md:max-xl:hidden lg:hidden  '>
+    <div  ref={backToTop} className='translate-x-[50px] md:max-xl:hidden lg:hidden  '>
 <ion-icon   onClick={()=> setSeen(!seen)} size='large'  name={`${seen ? 'close' : 'menu-outline'}`} className=''></ion-icon>
 </div>
     
@@ -46,15 +46,15 @@ const Home = () => {
      lg:space-y-[-70px] max-sm:justify-center max-sm:items-center max-sm:bg-black  max-sm:z-50  max-sm:text-white
       max-sm:flex-col md:flex-row md:gap-11      max-sm:w-[100%] max-sm:p-20   max-sm:h-[400px] max-sm:gap-[20px] 
       cursor-pointer  transition-all duration-500 ease-in max-sm:relative md:text-black md:text-xl lg:top-10
-      md:translate-y-10 lg:translate-y-0 max-sm:right-[40px] lg:text-sm lg:p-3
+      md:translate-y-10 lg:translate-y-0 max-sm:right-[40px] lg:text-sm lg:p-3 capitalize
       ${seen ?  ' top-0 transition-all duration-500 ease-in z-50 ' : 'top-[-600px]  '}
      `}> 
-        <li className='lg:mt-[-70px]'>HOME</li>
-        <li>ABOUT</li>
-        <li>CLASSES</li>
-        <li>SCHEDULES</li>
-        <li>CONTACT</li>
-        <li className='bg-orange-500 p-4 lg:text-sm  rounded-md'>SIGN UP</li>
+        <li className='lg:mt-[-70px] rounded-md hover:bg-gray-100  p-3 hover:p-3 hover:bg-opacity-40 duration-500'>home</li>
+        <li   className=' hover:bg-gray-100  rounded p-3 hover:p-3 hover:bg-opacity-30 duration-500 transition-all inset-0'   >about</li>
+        <li className=' hover:bg-gray-100  rounded p-3 hover:p-3 hover:bg-opacity-30 duration-500 transition-all inset-0' >classes</li>
+        <li className=' hover:bg-gray-100 rounded  p-3 hover:p-3 hover:bg-opacity-30 duration-500 transition-all inset-0' >schedules</li>
+        <li className=' hover:bg-gray-100  rounded p-3 hover:p-3 hover:bg-opacity-30 duration-300 transition-all inset-0' >contact</li>
+        <li className='bg-orange-500 p-4 lg:text-sm  rounded rounded-md'>sighn up</li>
     </ul>
     </div>
 

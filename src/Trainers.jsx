@@ -1,5 +1,18 @@
+import {useContext} from 'react'
+import ContextApi from '../src/context/ContextApi'
+
+
+
+
+
+
+
+
+
 
 const Trainers = () => {
+    const {handleScroll,backToTop} = useContext(ContextApi)
+
   return (
 
 
@@ -25,7 +38,7 @@ const Trainers = () => {
             <p className="my-4">If you care for your time, I hands down would go with this."</p>
         </blockquote>
         <figcaption className="flex items-center justify-center ">
-            <img className="rounded-full w-[100%] " 
+            <img className="rounded-full w-[50%] " 
             src="/images/first-trainer.jpg" alt="profile picture"/>
             <div className="space-y-0.5 font-medium dark:text-white text-left rtl:text-right ms-3">
                 <div className='font-extrabold text-2xl'>Bonnie Green</div>
@@ -39,7 +52,7 @@ const Trainers = () => {
             <p className="my-4">Designing with Figma components that can be easily translated to the utility classes of Tailwind CSS is a huge timesaver!"</p>
         </blockquote>
         <figcaption className="flex items-center justify-center ">
-            <img className="rounded-full w-[100%] " 
+            <img className="rounded-full w-[50%] " 
             src="/images/second-trainer.jpg"
              alt="profile picture"/>
             <div className="space-y-0.5 font-medium dark:text-white text-left rtl:text-right ms-3">
@@ -54,7 +67,7 @@ const Trainers = () => {
             <p className="my-4">Aesthetically, the well designed components are beautiful and will undoubtedly level up your next application."</p>
         </blockquote>
         <figcaption className="flex items-center justify-center ">
-            <img className="rounded-full w-[100%]"
+            <img className="rounded-full w-[50%]"
              src="/images/third-trainer.jpg" alt="profile picture"/>
             <div className="space-y-0.5 font-medium dark:text-white text-left rtl:text-right ms-3">
                 <div className='text-2xl font-extrabold'>Jese Leos</div>
@@ -62,7 +75,10 @@ const Trainers = () => {
             </div>
         </figcaption>    
     </figure>
-    
+    <button  onClick={()=> handleScroll(backToTop.current)}  className='font-light'>
+        back to top
+    <ion-icon name="arrow-up-outline"></ion-icon>
+    </button>
 </div> 
 
 </div>

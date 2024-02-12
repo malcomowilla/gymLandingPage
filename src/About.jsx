@@ -2,7 +2,7 @@
 const About = () => {
   return (
     <div className='w-full h-full flex 
-     justify-center items-center relative top-[200px]'>
+     justify-center items-center relative top-[200px] '>
         
         <div className='flex flex-col flex-shrink px-10 pl-20'>
             <div className='flex justify-center items-center'>
